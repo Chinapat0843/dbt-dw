@@ -16,7 +16,7 @@ else:
     dbt_manifest_path = dbt_project_dir.joinpath("target", "manifest.json")
 
 # Airbyte configs
-AIRBYTE_CONNECTION_ID = os.environ.get("AIRBYTE_CONNECTION_ID", "dfe6eae2-7fd3-4114-8ffc-5c78d6757446")
+AIRBYTE_CONNECTION_ID = os.environ.get("AIRBYTE_CONNECTION_ID", "8bfc1a56-aea0-4365-82fd-c45e62398dba")
 
 
 AIRBYTE_CONFIG = {

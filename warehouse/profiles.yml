@@ -6,9 +6,9 @@ warehouse:
       threads: 4
       host: localhost
       port: 5432
-      user: "{{ env_var('PGUID') }}"
-      pass: "{{ env_var('PGPASS') }}"
-      dbname: adventureworks
+      user: postgres
+      pass: First2000
+      dbname: dvdrental
       schema: public
 
     prod:

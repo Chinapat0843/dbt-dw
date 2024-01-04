@@ -9,7 +9,7 @@ from .constants import dbt_project_dir
 from .schedules import schedules
 
 defs = Definitions(
-    assets=[warehouse_dbt_assets, airbyte_assets],
+    assets=[warehouse_dbt_assets], #airbyte_assets
     resources={
         "dbt": DbtCliResource(project_dir=os.fspath(dbt_project_dir)),
     },
